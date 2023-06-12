@@ -1,0 +1,41 @@
+body {
+  background-color: #a4e0fc;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+h1 {
+  color: #5728FF;
+}
+
+#board {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.cell {
+  width: 90px;
+  height: 90px;
+  border: 1px solid #5728FF;
+  background-color: #C6C1FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+button {
+  background-color: #5728FF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
